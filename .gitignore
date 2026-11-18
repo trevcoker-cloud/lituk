@@ -1,0 +1,12 @@
+# Local Python env used only by the PDF inspection script
+.venv/
+__pycache__/
+*.pyc
+
+# Local preview server bookkeeping
+.preview-server.log
+.preview-server.pid
+
+# Generated print/QA artifacts (rebuild with bash tools/print_guide.sh)
+print/
+screens/

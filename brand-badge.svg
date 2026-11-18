@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-labelledby="badgeTitle">
+  <title id="badgeTitle">Sneinton Community Education</title>
+
+  <circle cx="300" cy="300" r="290" fill="#ffffff"/>
+  <circle cx="300" cy="300" r="290" fill="none" stroke="#141414" stroke-width="11"/>
+  <circle cx="300" cy="300" r="272" fill="none" stroke="#141414" stroke-width="5"/>
+
+  <defs>
+    <path id="arcTop" d="M 91.4 375.9 A 222 222 0 1 1 508.6 375.9" fill="none"/>
+    <path id="arcBottom" d="M 91.4 375.9 A 222 222 0 0 0 508.6 375.9" fill="none"/>
+  </defs>
+
+  <g fill="#141414" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text font-size="56" letter-spacing="1">
+      <textPath href="#arcTop" startOffset="50%" text-anchor="middle" textLength="700" lengthAdjust="spacingAndGlyphs">Sneinton Community</textPath>
+    </text>
+    <text font-size="56" letter-spacing="1">
+      <textPath href="#arcBottom" startOffset="50%" text-anchor="middle" textLength="350" lengthAdjust="spacingAndGlyphs">Education</textPath>
+    </text>
+  </g>
+
+  <g fill="#141414" stroke="#141414">
+    <path d="M199 296 L222 368 Q300 440 378 368 L401 296 Z" stroke="none"/>
+    <path d="M120 272 L103 384" fill="none" stroke-width="5" stroke-linecap="round"/>
+    <rect x="92" y="380" width="22" height="48" rx="11" stroke="none"/>
+    <path d="M110 262 L300 188 L490 262 L300 336 Z" stroke="none"/>
+  </g>
+</svg>
